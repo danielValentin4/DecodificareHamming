@@ -39,9 +39,9 @@ The application:
    - `1` → Odd parity
 2. A **21-bit binary sequence** consisting only of `0` and `1`
 
---Example:
---0
---101100110101011001101
+Example:
+0
+101100110101011001101
 
 
 ## Output
