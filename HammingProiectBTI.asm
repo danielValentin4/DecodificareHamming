@@ -16,7 +16,7 @@
     pozitieEroare DW 0                      ; variabila pentru a memora pozitia erorii
     sindrom DB 5 DUP(0)                     ; spatiu pentru sindrom pt a corecta eroarea
     bitParitateGlobala DB 0                 ; bitul de paritate globala pentru a diferentia intre o eroare si doua erori
-    tipParitate DB 0                        ; tipul de paritate pe care ar trebui sa il aiba mesajul primit
+    tipParitate DB 0                        ; tipul de paritate pe care ar trebui sa il aiba mesajul primit;
     
 .CODE
 MAIN:
