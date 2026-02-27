@@ -1,3 +1,6 @@
+
+
+
 # Hamming Code Decoder and Error Correction (x86 Assembly)
 
 This project implements a **Hamming Code decoder** written in **x86 Assembly**, capable of detecting and correcting transmission errors in a **21-bit Hamming-encoded binary sequence**.  
@@ -48,9 +51,19 @@ Example:
 
 Depending on the input, the program:
 - confirms correct transmission
-- corrects and reports a single-bit error (with its position)
-- detects and reports two-bit errors
 - displays the decoded ASCII characters (if printable)
+
+<img width="1133" height="197" alt="Screenshot 2026-02-27 193321" src="https://github.com/user-attachments/assets/15473d6f-1b14-4cfb-a21d-3cc9a91b29b9" />
+
+
+- corrects and reports a single-bit error (with its position)
+
+<img width="1036" height="203" alt="Screenshot 2026-02-27 193447" src="https://github.com/user-attachments/assets/a0ee51ca-a5ee-4d8d-abaa-0e52628fc5b4" />
+  
+- detects and reports two-bit errors
+
+<img width="1075" height="183" alt="Screenshot 2026-02-27 193527" src="https://github.com/user-attachments/assets/bfdae5e2-8543-471c-83a4-88f7e494c647" />
+  
 
 ---
 
